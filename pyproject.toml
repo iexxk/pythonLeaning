@@ -9,8 +9,13 @@ python = "^3.8"
 pandas = "^1.1.4"
 nupy = "^0.1.1"
 pymongo = "^3.11.1"
+matplotlib = "^3.3.3"
 
 [tool.poetry.dev-dependencies]
+
+[[tool.poetry.source]]
+name = "douban"
+url = "https://pypi.doubanio.com/simple/"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
