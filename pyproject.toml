@@ -14,8 +14,8 @@ matplotlib = "^3.3.3"
 [tool.poetry.dev-dependencies]
 
 [[tool.poetry.source]]
-name = "douban"
-url = "https://pypi.doubanio.com/simple/"
+name = "gt163"
+url = "http://gt163.cn:14006/repository/pypi-public/"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
