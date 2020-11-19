@@ -5,6 +5,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+nupy = "*"
 
 [dev-packages]
 
