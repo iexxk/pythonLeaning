@@ -1,9 +1,8 @@
+# 需要安装brew install libjpeg
 import matplotlib.pyplot as plt
 import pandas as pd
-import pandas_bokeh
-import nupy as np
+import numpy as np
 
-pd.set_option('plotting.backend', 'pandas_bokeh')
 # 显示所有列
 pd.set_option('display.max_columns', None)
 # 显示所有行
@@ -30,7 +29,7 @@ def drowShow():
     :return:
     """
     df = randomData()
-    df.plot_bokeh()
+    df.plot()
     plt.show()
 
 

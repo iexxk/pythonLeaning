@@ -5,10 +5,11 @@ verify_ssl = true
 name = "aliyun"
 
 [packages]
-nupy = "*"
 pymongo = "*"
 pandas = "*"
 numpy = "*"
+matplotlib = "*"
+pandas-bokeh = "*"
 
 [dev-packages]
 
